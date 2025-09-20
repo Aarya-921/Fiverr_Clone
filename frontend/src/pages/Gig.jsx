@@ -197,7 +197,7 @@ const Gig = () => {
             <div className="flex-[1] border border-gray-300 p-[20px] rounded-[5px] flex flex-col gap-[20px] sticky top-[150px] max-h-[500px] h-max">
               <div className="flex items-center justify-between">
                 <h3 className="font-medium">{data.shortTitle}</h3>
-                <h2 className="font-light">$ 59.99</h2>
+                <h2 className="font-light">$ {data.price}</h2>
               </div>
               <p className="text-gray-400 my-[10px] mx-0">{data.shortDesc}</p>
               <div className="flex items-center justify-between text-[14px]">
