@@ -29,7 +29,7 @@ mongoose.connect(process.env.MONGO_URI ,{
 const _dirname = path.resolve();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://fiverr-clone-x1hg.onrender.com",
     credentials: true
 }))
 app.use(express.json());
