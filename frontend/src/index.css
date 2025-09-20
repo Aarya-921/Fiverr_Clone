@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+tr[id="1"],
+tr[id="3"],
+tr[id="5"] {
+  background-color: rgb(214, 240, 249);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
