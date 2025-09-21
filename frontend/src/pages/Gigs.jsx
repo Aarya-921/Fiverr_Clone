@@ -48,9 +48,9 @@ const Gigs = () => {
         <span className="font-light text-[13px] text-gray-500">
           <Link to="/">Fiverr </Link> &gt; Graphics & Design &gt;{" "}
         </span>
-        <h1 className="text-[40px] font-bold">AI Artists</h1>
+        <h1 className="text-[40px] font-bold">Gigs</h1>
         <p className="font-light text-gray-400">
-          Explore the boundaries of art and technology with Fiverr's AI Artists
+          Explore the boundaries of art and technology with Fiverr's Freelancer
         </p>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-[10px] text-gray-500 font-light">
