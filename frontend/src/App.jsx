@@ -78,8 +78,22 @@ const App = () => {
               currentUser?.user?.isSeller ? <MyGigs /> : <Navigate to="/" />
             }
           />
-          <Route path="/payment/:id" element={currentUser?.user?.isSeller ? <Navigate to="/" /> : <Payment />} />
-          <Route path="/success" element={currentUser?.user?.isSeller ? <Navigate to="/" /> : <Success />} />
+          <Route
+            path="/payment/:id"
+            element={
+              !currentUser || currentUser?.user?.isSeller ? (
+                <Navigate to="/" />
+              ) : (
+                <Payment />
+              )
+            }
+          />
+          <Route
+            path="/success"
+            element={
+              !currentUser || currentUser?.user?.isSeller ? <Navigate to="/" /> : <Success />
+            }
+          />
         </Routes>
         <Footer />
       </Router>
